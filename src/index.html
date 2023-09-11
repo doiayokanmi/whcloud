@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <script src="/src/script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/1c78765928.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>White Cloud - Investors</title>
+  </head>
+  <body>
+    <div
+      class="h-screen bg-homepage bg-cover relative flex justify-center items-center transition-all duration-700 ease-in-out"
+    >
+      <img src="/images/logo.png" class="w-80 object-contain" alt="" />
+      <i
+        class="fa-solid fa-bars absolute cursor-pointer right-12 top-12 text-white text-2xl"
+        id="openMenu"
+      ></i>
+
+      <div
+        id="menu"
+        class="w-screen h-screen absolute transition-opacity duration-700 ease-in-out bg-black bg-opacity-75 overflow-hidden text-white text-base gap-8 uppercase hidden flex-col justify-center items-center"
+      >
+        <a href="/src/about.html" class="tracking-[3px] hover:text-slate-300">About</a>
+        <a href="/" class="tracking-[3px] hover:text-slate-300">portfolio</a>
+        <a href="/src/contact.html" class="tracking-[3px] hover:text-slate-300">contact</a>
+        <hr class="border-2 w-80 rounded-full" />
+        <a href="/" class="tracking-[3px] hover:text-slate-300"
+          >investors portal</a
+        >
+
+        <i
+          class="fa-solid cursor-pointer fa-xmark absolute top-12 right-12 text-white text-2xl"
+          id="closeMenu"
+        ></i>
+      </div>
+    </div>
+  </body>
+</html>

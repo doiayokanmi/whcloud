@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/dist/style.css" />
+    <script src="/src/script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/1c78765928.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <div class="relative overflow-hidden">
+      <div
+        id="menu"
+        class="h-screen z-50 w-screen fixed top-0 transition-all duration-700 ease-in-out bg-black bg-opacity-75 overflow-hidden text-white text-base gap-8 uppercase hidden flex-col justify-center items-center"
+      >
+        <a href="/src/about.html" class="tracking-[3px] hover:text-slate-300"
+          >About</a
+        >
+        <a href="/" class="tracking-[3px] hover:text-slate-300">portfolio</a>
+        <a href="/src/contact.html" class="tracking-[3px] hover:text-slate-300"
+          >contact</a
+        >
+        <hr class="border-2 w-80 rounded-full" />
+        <a href="/" class="tracking-[3px] hover:text-slate-300"
+          >investors portal</a
+        >
+
+        <i
+          class="fa-solid cursor-pointer fa-xmark absolute top-12 right-12 text-white text-2xl"
+          id="closeMenu"
+        ></i>
+      </div>
+      <nav
+        class="flex justify-between items-center fixed w-screen md:px-24 p-4"
+      >
+        <a href="/">
+          <img width="150px" src="/images/logo.png" alt="logo" />
+        </a>
+
+        <i class="fa-solid fa-bars cursor-pointer text-2xl" id="openMenu"></i>
+      </nav>
+
+
+      <div class="flex justify-between md:p-24 p-4 my-[80px]">
+        <div class="basis-1/5">
+          <div class="my-4">
+            <h5 class="uppercase text-xl my-3 font-bold">fund ii</h5>
+            <p class="text-gray-600 text-sm font-thin">
+              White Cloud Capital II SCSp <br />
+              7 Rue Robert Stümper <br />
+              Luxembourg L-2557 <br />
+              Luxembourg
+            </p>
+          </div>
+
+          <div class="my-7 leading-6">
+            <h5 class="uppercase text-xl my-3 font-bold">
+              ADVISORS TO THE FUND
+            </h5>
+            <p class="text-gray-600 text-sm font-thin">
+              White Cloud Capital II SCSp <br />
+              7 Rue Robert Stümper <br />
+              Luxembourg L-2557 <br />
+              Luxembourg
+            </p>
+          </div>
+        </div>
+
+        <div class="basis-3/5">
+            <div class="flex flex-wrap">
+                <div class="basis-1/2 p-4">
+                    <input type="text" class="outline-0 bg-gray-300 p-2 w-full bg-transparent placeholder="firt name">
+                </div>
+                <div class="basis-1/2 p-4">
+                    <input type="text" class="outline-0 bg-gray-300 p-2 w-full bg-transparent placeholder="firt name">
+                </div>
+                <div class="basis-1/2 p-4">
+                    <input type="text" class="outline-0 bg-gray-300 p-2 w-full bg-transparent placeholder="firt name">
+                </div>
+                <div class="basis-1/2 p-4">
+                    <input type="text" class="outline-0 bg-gray-300 p-2 w-full bg-transparent placeholder="firt name">
+                </div>
+            </div>
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
